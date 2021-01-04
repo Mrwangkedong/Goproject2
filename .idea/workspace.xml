@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Goproject2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/go_build_Goproject2_src_demo.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/go_build_Goproject2_src_demo__1_.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/FileText.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/CateLog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/FileTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/Point.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/Slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/Struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/mapTest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/并发.go" afterDir="false" />
-    </list>
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +138,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="golang" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang" />
   </component>
   <component name="VgoProject">
     <environment>
