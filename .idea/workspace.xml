@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang" />
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang">
+      <change afterPath="$PROJECT_DIR$/src/demo/08_协程并发.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/08_并发.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/09_Go程.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/CateLog.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/07_CateLog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/FileTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/06_FileTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Point.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/02_Point.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/03_Slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/04_Struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/01_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/mapTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/05_mapTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/并发.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +40,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/demo/main.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/demo/01_main.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1mJok2Sa4eXbQaKNL5yllq2dpf2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +66,7 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build FileText.go">
+  <component name="RunManager" selected="Go Build.go build 10_channel.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -61,29 +77,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build CateLog.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10_channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/CateLog.go" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build FileTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/FileTest.go" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build FileText.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Test/FileText.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/10_channel.go" />
       <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -99,45 +97,31 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/Slice.go" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/Struct.go" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
-      <item itemvalue="Go Build.go build Slice.go" />
-      <item itemvalue="Go Build.go build Struct.go" />
-      <item itemvalue="Go Build.go build FileTest.go" />
-      <item itemvalue="Go Build.go build CateLog.go" />
-      <item itemvalue="Go Build.go build FileText.go" />
+      <item itemvalue="Go Build.go build 10_channel.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build FileText.go" />
-        <item itemvalue="Go Build.go build CateLog.go" />
-        <item itemvalue="Go Build.go build FileTest.go" />
-        <item itemvalue="Go Build.go build Struct.go" />
-        <item itemvalue="Go Build.go build Slice.go" />
+        <item itemvalue="Go Build.go build 10_channel.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="golang" />
