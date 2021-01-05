@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang">
-      <change afterPath="$PROJECT_DIR$/src/demo/08_协程并发.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/08_并发.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/09_Go程.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/CateLog.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/07_CateLog.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/FileTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/06_FileTest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Point.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/02_Point.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/03_Slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/04_Struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/01_main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/mapTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/05_mapTest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/并发.go" beforeDir="false" />
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/5">
+      <change beforePath="$PROJECT_DIR$/src/demo/10_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="golang" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang" />
+    <MESSAGE value="golang--2021/1/5" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/5" />
   </component>
   <component name="VgoProject">
     <environment>

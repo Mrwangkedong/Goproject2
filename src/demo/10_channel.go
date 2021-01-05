@@ -46,18 +46,43 @@ func person2() { //后执行
 	printer("world")
 }
 
-func main() {
+func channelLock() {
 	////输出【Hweorllldo】
 	//go person1()
 	//go person2()
 	//for true {
 	//	;
 	//}
-
+	//输出【helloword】
 	go person1()
 	go person2()
 	for true {
 
 	}
+}
+
+/*
+
+ */
+func channelSameStep() {
+	ch := make(chan string)
+	//len(ch)表示通道中未被读取的数据个数，cap(ch)表示通道容量
+	println("len(ch)=", len(ch), "--->cap(ch)=", cap(ch)) //一直是0
+	//子 go程
+	go func() {
+		for i := 0; i < 5; i++ {
+			fmt.Printf("%d", i)
+		}
+		//通知子go程打印完毕
+		ch <- "子go程打印结束"
+	}()
+	println("len(ch)=", len(ch), "--->cap(ch)=", cap(ch)) //一直是0
+	//主 go程,接收通道内容
+	str := <-ch
+	println("\n" + str)
+}
+
+func main() {
+	channelSameStep()
 
 }
