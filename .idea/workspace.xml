@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/5">
-      <change beforePath="$PROJECT_DIR$/src/demo/10_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/11_channel无缓冲.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 10_channel.go">
+  <component name="RunManager" selected="Go Build.go build 12_channel有缓冲.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,6 +76,24 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 11_channel无缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/11_channel无缓冲.go" />
+      <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 12_channel有缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" />
+      <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Goproject2/src/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$/src/demo" />
@@ -88,9 +108,13 @@
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
       <item itemvalue="Go Build.go build 10_channel.go" />
+      <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
+      <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
+        <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
         <item itemvalue="Go Build.go build 10_channel.go" />
       </list>
     </recent_temporary>
