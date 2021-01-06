@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/5">
-      <change afterPath="$PROJECT_DIR$/src/demo/13_channel单向.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/生产者消费者.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/14_定时器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/15_周期定时.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +57,23 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Goproject2/src/demo (1)">
+  <component name="RunManager" selected="Go Build.go build 15_周期定时.go">
+    <configuration name="14_定时器" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/14_定时器.go" />
+      <package value="Goproject2/src/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 10_channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/10_channel.go" />
       <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -85,12 +87,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 12_channel有缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 15_周期定时.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/15_周期定时.go" />
       <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Goproject2/src/Test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/Test/生产者消费者.go" />
+      <package value="Goproject2/src/Test" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -117,17 +129,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
-      <item itemvalue="Go Build.go build 10_channel.go" />
       <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
-      <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
       <item itemvalue="Go Build.go build Goproject2/src/demo (1)" />
+      <item itemvalue="Go Build.go build Goproject2/src/Test" />
+      <item itemvalue="Go Build.14_定时器" />
+      <item itemvalue="Go Build.go build 15_周期定时.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Goproject2/src/demo (1)" />
-        <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
+        <item itemvalue="Go Build.go build 15_周期定时.go" />
+        <item itemvalue="Go Build.14_定时器" />
+        <item itemvalue="Go Build.go build Goproject2/src/Test" />
         <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
-        <item itemvalue="Go Build.go build 10_channel.go" />
+        <item itemvalue="Go Build.go build Goproject2/src/demo (1)" />
       </list>
     </recent_temporary>
   </component>
