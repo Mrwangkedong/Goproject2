@@ -21,14 +21,58 @@ Select
 	4.break只能跳出select中的一个case
 */
 
-func main() {
+//select超时处理
+func selectTimeOut() {
 	ch := make(chan int)    //用来进行数据通信
 	quit := make(chan bool) //用来判断是否退出
 
 	go func() {
-		for i := 0; i < 4; i++ {
+		for {
+			select {
+			case num := <-ch:
+				fmt.Println("Num=", num)
+			case <-time.After(3 * time.Second): //每次重新计时 ！
+				quit <- true
+				goto lable
+			}
+		}
+	lable:
+		fmt.Println("goto break!")
+	}()
+
+	for i := 0; i < 2; i++ {
+		ch <- i
+		time.Sleep(2 * time.Second)
+	}
+
+	<-quit
+	fmt.Println("Over....")
+}
+
+func demo() {
+	ch := make(chan int)
+	go func() {
+		for i := 1; i < 5; i++ {
 			ch <- i
-			time.Sleep(time.Second)
+			time.Sleep(2 * time.Second)
+		}
+		close(ch) //当把通道关闭之后，会一直读取0000000
+		runtime.Goexit()
+	}()
+
+	for true {
+		fmt.Println("num=", <-ch)
+	}
+}
+
+func selectDemo() {
+	ch := make(chan int)    //用来进行数据通信
+	quit := make(chan bool) //用来判断是否退出
+
+	go func() {
+		for i := 1; i < 6; i++ {
+			ch <- i
+			time.Sleep(1 * time.Second)
 		}
 		close(ch)
 		quit <- true     //通知主go程退出
@@ -41,8 +85,12 @@ func main() {
 			fmt.Println("读到num=", num) //有时候会出现【0 1 2 3 0 0】，应该是出现在未关闭channel
 		case <-quit:
 			return
-			//break   //跳出select
 		}
 
 	}
+}
+
+func main() {
+	//selectTimeOut()
+	demo()
 }

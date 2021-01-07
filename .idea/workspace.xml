@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/6">
-      <change afterPath="$PROJECT_DIR$/src/Test/03_select斐波拉契数列.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/16_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/17_lock.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/16_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/16_select.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
   </component>
   <component name="ProjectId" id="1mJok2Sa4eXbQaKNL5yllq2dpf2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -56,7 +60,7 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.03_select斐波那契">
+  <component name="RunManager" selected="Go Build.go build 17_lock.go">
     <configuration name="03_select斐波那契" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -106,13 +110,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Goproject2/src/Test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 17_lock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Test/生产者消费者.go" />
-      <package value="Goproject2/src/Test" />
+      <filePath value="$PROJECT_DIR$/src/demo/17_lock.go" />
+      <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -129,19 +132,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
-      <item itemvalue="Go Build.go build Goproject2/src/Test" />
       <item itemvalue="Go Build.14_定时器" />
       <item itemvalue="Go Build.go build 15_周期定时.go" />
       <item itemvalue="Go Build.16_select" />
       <item itemvalue="Go Build.03_select斐波那契" />
+      <item itemvalue="Go Build.go build 17_lock.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.03_select斐波那契" />
+        <item itemvalue="Go Build.go build 17_lock.go" />
         <item itemvalue="Go Build.16_select" />
+        <item itemvalue="Go Build.03_select斐波那契" />
         <item itemvalue="Go Build.go build 15_周期定时.go" />
         <item itemvalue="Go Build.14_定时器" />
-        <item itemvalue="Go Build.go build Goproject2/src/Test" />
       </list>
     </recent_temporary>
   </component>
