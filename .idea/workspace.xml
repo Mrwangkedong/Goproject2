@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/7">
-      <change afterPath="$PROJECT_DIR$/src/demo/18_读写锁.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/18_读写锁err.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/18_读写锁rwlock.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/09_Go程.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/09_Go程.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/10_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo/17_lock.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/17_lock.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/18_读写锁.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/18_读写锁lock_channel.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +63,7 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 18_读写锁.go">
-    <configuration name="03_select斐波那契" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Test/03_select斐波拉契数列.go" />
-      <package value="Goproject2/src/Test" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 18_读写锁rwlock.go">
     <configuration name="16_select" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -90,15 +80,6 @@
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$" />
-      <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 15_周期定时.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/15_周期定时.go" />
       <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -121,6 +102,24 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 18_读写锁err.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/18_读写锁err.go" />
+      <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 18_读写锁rwlock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/18_读写锁rwlock.go" />
+      <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Goproject2/src/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$/src/demo" />
@@ -134,19 +133,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
-      <item itemvalue="Go Build.go build 15_周期定时.go" />
       <item itemvalue="Go Build.16_select" />
-      <item itemvalue="Go Build.03_select斐波那契" />
       <item itemvalue="Go Build.go build 17_lock.go" />
       <item itemvalue="Go Build.go build 18_读写锁.go" />
+      <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
+      <item itemvalue="Go Build.go build 18_读写锁err.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
+        <item itemvalue="Go Build.go build 18_读写锁err.go" />
         <item itemvalue="Go Build.go build 18_读写锁.go" />
         <item itemvalue="Go Build.go build 17_lock.go" />
         <item itemvalue="Go Build.16_select" />
-        <item itemvalue="Go Build.03_select斐波那契" />
-        <item itemvalue="Go Build.go build 15_周期定时.go" />
       </list>
     </recent_temporary>
   </component>

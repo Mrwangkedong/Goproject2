@@ -12,6 +12,7 @@ import (
 		channel应该在至少两个以上的go程中进行通信，否则死锁
 	2.go程间channel访问顺序导致死锁
 	3.多go程，多channel导致死锁
+	4.在Go语言中，尽量不要把互斥锁，读写锁，与channel混用
 */
 
 /*
