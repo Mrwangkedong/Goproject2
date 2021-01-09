@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/8">
-      <change afterPath="$PROJECT_DIR$/src/demo/19_条件变量.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/01_笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/02_TCP-CS-client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/02_TCP-CS-server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/02_TCP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img/01_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img/02_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/网络概述/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
