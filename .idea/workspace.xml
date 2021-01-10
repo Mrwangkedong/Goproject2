@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/8">
-      <change afterPath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img.png" afterDir="false" />
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/9">
+      <change afterPath="$PROJECT_DIR$/src/网络概述/img/02_TCP握手挥手—状态转化.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/网络概述/img/02_TCP状态转化图.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/img/02_握手挥手img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +174,8 @@
     <MESSAGE value="golang--2021/1/6" />
     <MESSAGE value="golang--2021/1/7" />
     <MESSAGE value="golang--2021/1/8" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/8" />
+    <MESSAGE value="golang--2021/1/9" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/9" />
   </component>
   <component name="VgoProject">
     <environment>
