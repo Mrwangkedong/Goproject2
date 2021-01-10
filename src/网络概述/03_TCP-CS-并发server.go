@@ -34,7 +34,7 @@ func main() {
 
 }
 
-//单独处理go程连接--
+//单独处理go程连接-
 func HandlerConnect(conn net.Conn) {
 	defer conn.Close()
 
