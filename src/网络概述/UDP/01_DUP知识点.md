@@ -9,11 +9,22 @@ UDP通信过程：
     3.处理读到的数据
     4.写数据给客户端
 
-1.创建监听地址：func ResolveUDPAddr(network,address string)
+服务端主要用到函数
 
-2.创建用户通信的socket: func ListenUDP(network string, laddr *UDPAddr) (*UDPConn, error) {
+    1.创建监听地址：func ResolveUDPAddr(network,address string)
+    
+    2.创建用户通信的socket: func ListenUDP(network string, laddr *UDPAddr) (*UDPConn, error) {
+    
+    3.接收UDP数据：func ReadFromUDP(b []byte)
+    
+    4.写数据到UDP：func WriteToUDP(b []byte,addr *UDPAddr)
 
-3.接收UDP数据：func ReadFromUDP(b []byte)
+客户端用的函数：
+    参考TCP
 
-4.写数据到UDP：func WriteToUDP(b []byte,addr *UDPAddr)
+TCP：对不稳定的网络层，做完全弥补操作
+UDP：-------------，不作为
 
+使用场景：
+    TCP：对数据传输安全性，稳定性较高的场合。网络文件的传输，下载，上传。
+    UDP：对数据传输要求较高的场合。视频直播，再点电话会议。游戏。
