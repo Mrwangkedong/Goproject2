@@ -1,11 +1,11 @@
 一、**TCP的C/S架构：**
 
-![img.png](img/02_img.png)
+![img.png](../img/02_img.png)
 
 二、**遇到多个client时**
 ----利用go程来解决
 
-![img.png](img/img.png)
+![img.png](../img/img.png)
 
 三、TCP-CS并发服务器：
 

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/9">
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img/02_TCP握手挥手—状态转化.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/网络概述/img/02_TCP状态转化图.png" afterDir="false" />
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络概述/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/img/02_握手挥手img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/01_笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/01_笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP-CS-client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP-CS-client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP-CS-server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP-CS-server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/02_TCP握手挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP握手挥手.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/03_TCP-CS-并发client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/03_TCP-CS-并发server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +62,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src\网络概述\TCP" />
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src\网络概述\img" />
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src\网络概述" />
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src\demo" />
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Goproject2/src/网络概述 (1)">
+  <component name="RunManager" selected="Go Build.go build 18_读写锁err.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,16 +77,6 @@
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$" />
       <package value="Goproject2" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 02_TCP-CS-server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/网络概述/02_TCP-CS-server.go" />
-      <package value="Goproject2/src/网络概述" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -104,25 +98,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Goproject2/src/网络概述 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发server.go" />
-      <package value="Goproject2/src/网络概述" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Goproject2/src/网络概述" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/网络概述/02_TCP-CS-client.go|$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发server.go" />
-      <package value="Goproject2/src/网络概述" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build Goproject2/src/demo" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$/src/demo" />
@@ -138,15 +113,9 @@
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
       <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
       <item itemvalue="Go Build.go build 18_读写锁err.go" />
-      <item itemvalue="Go Build.go build 02_TCP-CS-server.go" />
-      <item itemvalue="Go Build.go build Goproject2/src/网络概述" />
-      <item itemvalue="Go Build.go build Goproject2/src/网络概述 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Goproject2/src/网络概述 (1)" />
-        <item itemvalue="Go Build.go build Goproject2/src/网络概述" />
-        <item itemvalue="Go Build.go build 02_TCP-CS-server.go" />
         <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
         <item itemvalue="Go Build.go build 18_读写锁err.go" />
       </list>
@@ -175,7 +144,8 @@
     <MESSAGE value="golang--2021/1/7" />
     <MESSAGE value="golang--2021/1/8" />
     <MESSAGE value="golang--2021/1/9" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/9" />
+    <MESSAGE value="golang--2021/1/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/10" />
   </component>
   <component name="VgoProject">
     <environment>
