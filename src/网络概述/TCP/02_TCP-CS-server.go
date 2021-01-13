@@ -6,14 +6,14 @@ import (
 )
 
 func main() {
-	//指定服务器，通信协议，IP地址，port。创建一个用于监听的socket
+	//1.指定服务器，通信协议，IP地址，port。创建一个用于监听的socket
 	myListener, err := net.Listen("tcp", "localhost:8000")
 	if err != nil {
 		fmt.Println("net Listener err: ", err)
 		return
 	}
 	fmt.Println("服务端等待客户端建立连接")
-	//阻塞监听客户端连接请求,获取客户端连接信号.若成功，返回用于通信的socket
+	//2.阻塞监听客户端连接请求,获取客户端连接信号.若成功，返回用于通信的socket
 	conn, err := myListener.Accept()
 	if err != nil {
 		fmt.Println("listener.Accept() err: ", err)

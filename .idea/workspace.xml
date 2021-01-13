@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/12">
+      <change afterPath="$PROJECT_DIR$/src/网络概述/FIleReceive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/网络概述/FileSend.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络概述/UDP/01_DUP知识点.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/UDP/01_DUP知识点.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP-CS-server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP-CS-server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
