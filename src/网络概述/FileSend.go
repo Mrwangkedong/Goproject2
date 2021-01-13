@@ -51,6 +51,7 @@ func CheckPower(fileInfo os.FileInfo, fileLocal string) {
 	//4.判断服务器是否同意发送,同意发送则进行文件发送
 	if string(buf[:2]) == "ok" {
 		SendFile(conn, fileLocal)
+		fmt.Println("Client 发送完成...")
 	} else {
 		fmt.Println("服务器不同意文件发送...")
 	}
