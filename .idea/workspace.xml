@@ -7,7 +7,6 @@
     <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/网络概述/FIleReceive.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/FIleReceive.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络概述/FileSend.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/FileSend.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/网络概述/03_TCP-CS-并发server.go" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">

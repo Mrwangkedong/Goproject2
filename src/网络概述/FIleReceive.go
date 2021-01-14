@@ -32,6 +32,7 @@ func main() {
 
 }
 
+//处理文件接收
 func HandleClient(conn net.Conn, dir string) {
 	//1.读取客户端发送的文件名
 	buf := make([]byte, 4096)
