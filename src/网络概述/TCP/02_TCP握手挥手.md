@@ -55,8 +55,9 @@
         -- Accept()函数返回数据传递期间 -- ESTABLISEHED(数据通信状态)
     3.主动关闭连接请求端：ESTABLISEHED -- FIN_WAIT_2(半关闭) -- TIME_WAIT -- 2MSL --
         确认最后一个ACK被对端成功接收 -- CLOSED
-      半关闭、TIMA_WAIT、2MSL --- 只会出现在 “主动关闭连接请求端”  
-
+      ^^半关闭、TIMA_WAIT、2MSL --- 只会出现在 “主动关闭连接请求端”  
+    4.被动关闭连接请求端：ESTABLISHED -- CLOSED
+    
 
 *** **过程图**  ***
 

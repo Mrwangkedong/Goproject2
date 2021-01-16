@@ -8,6 +8,7 @@ import (
 func main() {
 	//指定服务器的 IP+port创建，创建套接字socket
 	conn, err := net.Dial("tcp", "127.0.0.1:8000")
+	conn.LocalAddr()
 	if err != nil {
 		fmt.Println("客户端连接失败")
 	}
