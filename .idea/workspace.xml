@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="golang--2021/1/17">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP握手挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/网络概述/TCP/02_TCP握手挥手.md" afterDir="false" />
-    </list>
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="tcp知识点补充。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +165,8 @@
     <MESSAGE value="golang--2021/1/14" />
     <MESSAGE value="golang--2021/1/16" />
     <MESSAGE value="golang--2021/1/17" />
-    <option name="LAST_COMMIT_MESSAGE" value="golang--2021/1/17" />
+    <MESSAGE value="tcp知识点补充。" />
+    <option name="LAST_COMMIT_MESSAGE" value="tcp知识点补充。" />
   </component>
   <component name="VgoProject">
     <environment>
