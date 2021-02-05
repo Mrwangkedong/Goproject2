@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //切片
 /*
@@ -35,6 +37,7 @@ func creatSlice() {
 
 //slice De append 操作
 func sliceTest() {
+
 	data := []string{"red", "", "black", "", "pink"}
 	afterdata := noEmpty(data)
 	fmt.Println(afterdata)
@@ -69,6 +72,7 @@ func sliceRemove(data []int) {
 	copy(data[index:], data[index+1:]) //[1 2 4 5 5]
 	afterData := data[:len(data)-1]    //[1 2 4 5]
 	fmt.Println(afterData)
+	sliceCopy()
 }
 
 func main() {

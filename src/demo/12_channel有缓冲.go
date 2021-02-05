@@ -14,7 +14,7 @@ channel应用于两个go程中，一个读，一个写
 /*
 channel关闭：
 		如果发送者知道，没有更多的值需要发送到channel的话，那么让接受者也能即及时知道没有多余的值可接收将是有用的，
-  	因为接收者可以停止不必要的接收等待。这可以通过内置的clise函数来关闭channel实现。
+  	因为接收者可以停止不必要的接收等待。这可以通过内置的close函数来关闭channel实现。
 		已经关闭的channel不能进行写入，可以再读，但是再接收得到话只能读到0 or default
 */
 
@@ -38,7 +38,7 @@ func fullChannel() {
 		if num, ok := <-ch; ok {
 			fmt.Println("主go程，num=", num, "len(ch)", len(ch), "cap(ch)", cap(ch))
 		} else {
-			fmt.Println("channel已关闭...")
+			fmt.Println("channel已关闭...", num)
 		}
 		//num := <-ch
 		//<- ch		//丢弃

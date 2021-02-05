@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="tcp知识点补充。" />
+    <list default="true" id="e2f805e8-7c52-4cab-8d35-8aff7f10661b" name="Default Changelist" comment="tcp知识点补充。">
+      <change afterPath="$PROJECT_DIR$/src/demo/20_TTTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/02_Point.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/02_Point.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/03_Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/03_Slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/08_协程并发.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/08_协程并发.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/10_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/10_channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/11_channel无缓冲.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/11_channel无缓冲.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -42,14 +51,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -60,7 +69,7 @@
       <recent name="C:\Users\Cristiano-Ronaldo\go\src\Goproject2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build FIleReceive.go">
+  <component name="RunManager" selected="Go Build.go build 20_TTTest.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,41 +80,39 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 02_UDP服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="Goproject2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/网络概述/UDP/02_UDP服务器.go" />
-      <package value="Goproject2/src/网络概述/UDP" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 18_读写锁err.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10_channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/18_读写锁err.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/10_channel.go" />
       <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 18_读写锁rwlock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_channel无缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/demo/18_读写锁rwlock.go" />
+      <filePath value="$PROJECT_DIR$/src/demo/11_channel无缓冲.go" />
       <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build FIleReceive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build 12_channel有缓冲.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Goproject2" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/网络概述/FIleReceive.go" />
-      <package value="Goproject2/src/网络概述" />
+      <filePath value="$PROJECT_DIR$/src/demo/12_channel有缓冲.go" />
+      <package value="Goproject2" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 20_TTTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/20_TTTest.go" />
+      <package value="Goproject2" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -120,19 +127,31 @@
       <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
+    <configuration name="go test Goproject2/src/demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Goproject2" />
+      <working_directory value="$PROJECT_DIR$/src/demo" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Goproject2/src/demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build Goproject2/src/demo" />
-      <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
-      <item itemvalue="Go Build.go build 18_读写锁err.go" />
-      <item itemvalue="Go Build.go build 02_UDP服务器.go" />
-      <item itemvalue="Go Build.go build FIleReceive.go" />
+      <item itemvalue="Go Build.go build 10_channel.go" />
+      <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
+      <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
+      <item itemvalue="Go Test.go test Goproject2/src/demo" />
+      <item itemvalue="Go Build.go build 20_TTTest.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build FIleReceive.go" />
-        <item itemvalue="Go Build.go build 02_UDP服务器.go" />
-        <item itemvalue="Go Build.go build 18_读写锁rwlock.go" />
-        <item itemvalue="Go Build.go build 18_读写锁err.go" />
+        <item itemvalue="Go Build.go build 20_TTTest.go" />
+        <item itemvalue="Go Test.go test Goproject2/src/demo" />
+        <item itemvalue="Go Build.go build 12_channel有缓冲.go" />
+        <item itemvalue="Go Build.go build 11_channel无缓冲.go" />
+        <item itemvalue="Go Build.go build 10_channel.go" />
       </list>
     </recent_temporary>
   </component>

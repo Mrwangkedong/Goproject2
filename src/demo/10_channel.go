@@ -84,5 +84,4 @@ func channelSameStep() {
 
 func main() {
 	channelSameStep()
-
 }

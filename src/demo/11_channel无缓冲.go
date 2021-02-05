@@ -29,5 +29,5 @@ func NoneBuffer() {
 }
 
 func main() {
-	NoneBuffer()
+	//NoneBuffer()
 }
